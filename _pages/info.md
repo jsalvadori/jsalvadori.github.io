@@ -93,4 +93,4 @@ International Quantitative Linguistics Association ([IQLA](https://www.iqla.org/
 
 Société Suisse de Linguistique ([SSL](https://www.sagw.ch/fr/ssg/))
 
-Tract des linguistes ([TdL](https://www.tract-linguistes.org/))
+Tract des Linguistes ([TdL](https://www.tract-linguistes.org/))
