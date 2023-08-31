@@ -86,7 +86,7 @@ Workshop organization
 
 
 
-Professional associations
+Associations
 -----
 
 International Quantitative Linguistics Association ([IQLA](https://www.iqla.org/))
@@ -94,3 +94,9 @@ International Quantitative Linguistics Association ([IQLA](https://www.iqla.org/
 Société Suisse de Linguistique ([SSL](https://www.sagw.ch/fr/ssg/))
 
 Tract des Linguistes ([TdL](https://www.tract-linguistes.org/))
+
+
+
+Media
+-----
+Member of [Les Expertes.ch](https://lesexpertes.ch/expertes/74575-justine-salvadori/)
