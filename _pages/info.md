@@ -74,7 +74,7 @@ Workshop organization
 -----
 *R for linguists*, Spring 2024, Université de Fribourg, with Richard Huyghe
 
-*Linguistique et questions de genre : perspectives et enjeux*, January 18, 2024, Université de Neuchâtel, with Aylin Pamuksaç, Loanne Janin and Corinne Rossari
+*[Linguistique et questions de genre : perspectives et enjeux](https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=7228)*, January 18, 2024, Université de Neuchâtel, with Aylin Pamuksaç, Loanne Janin and Corinne Rossari
 
 *[Python for linguists](https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6768)*, June 22-23, 2023, Université de Fribourg, with Richard Huyghe
 
