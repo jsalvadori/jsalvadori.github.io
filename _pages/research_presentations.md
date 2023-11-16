@@ -18,6 +18,8 @@ Invited talk
 Conference presentations
 -----
 
+Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.** (2023, November 17). *The ambiguous nature of complex semantic types: An experimental investigation*. XPrag.ch 2023, Fribourg, Switzerland.
+
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2023, September 15). *BERT e la rappresentazione dell'ambiguità lessicale: uno studio sulle nominalizzazioni in francese*. LVI Congresso Internazionale SLI (Società di Linguistica Italiana), Turin, Italy.
 
 **Salvadori, J.**, Varvara, R., & Huyghe, R. (2023, September 13). *Quantitative measures of affix rivalry*. 4th International Symposium of Morphology (ISMo 2023), Nancy, France.
