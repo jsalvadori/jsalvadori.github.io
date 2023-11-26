@@ -15,7 +15,7 @@ Journal articles
 
 Schwab, S., Mouthon, M., Jost, L. B., **Salvadori, J.**, Stefanos-Yakoub, I., Ferreira da Silva, E., Giroud, N., Perriard, B., & Annoni, J.-M. (2023). Neural correlates of lexical stress processing in a foreign free-stress language. *Brain and Behavior*, *13*(1), e2854. [https://doi.org/10.1002/brb3.2854](https://doi.org/10.1002/brb3.2854)
 
-**Salvadori, J.**, & Huyghe, R. (2022). When morphology meets regular polysemy. *Lexique*, *31*, 85-113. [https://lexique.univ-lille.fr/when-morphology-meets-regular-polysemy.html](https://lexique.univ-lille.fr/when-morphology-meets-regular-polysemy.html)
+**Salvadori, J.**, & Huyghe, R. (2022). When morphology meets regular polysemy. *Lexique*, *31*, 85-113. [https://doi.org/10.54563/lexique.857](https://doi.org/10.54563/lexique.857)
 
 
 Book chapter
