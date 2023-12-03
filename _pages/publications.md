@@ -18,7 +18,7 @@ Schwab, S., Mouthon, M., Jost, L. B., **Salvadori, J.**, Stefanos-Yakoub, I., Fe
 **Salvadori, J.**, & Huyghe, R. (2022). When morphology meets regular polysemy. *Lexique*, *31*, 85-113. [https://doi.org/10.54563/lexique.857](https://doi.org/10.54563/lexique.857)
 
 
-Book chapter
+Book chapters
 -----
 
 **Salvadori, J.**, Varvara, R., & Huyghe, R. (to appear). Measuring affix rivalry as a gradient relationship. In 
