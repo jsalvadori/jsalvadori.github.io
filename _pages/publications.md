@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-> Four manuscripts in preparation (accepted or under review).
+> Three manuscripts in preparation (accepted or under review).
 
 
 Journal articles
@@ -20,6 +20,9 @@ Schwab, S., Mouthon, M., Jost, L. B., **Salvadori, J.**, Stefanos-Yakoub, I., Fe
 
 Book chapter
 -----
+
+**Salvadori, J.**, Varvara, R., & Huyghe, R. (to appear). Measuring affix rivalry as a gradient relationship. In 
+A. Bagasheva, A. Nagano & V. Renner (Eds.), *Competition in word-formation*. John Benjamins.
 
 Huyghe, R., Lombard, A., **Salvadori, J.**, & Schwab, S. (2023). Semantic rivalry between French deverbal neologisms in *-age*, *-ion* and *-ment*. In S. Kotowski & I. Plag (Eds.), *The semantics of derivational morphology: Theory, methods, evidence* (pp. 143-176). De Gruyter. [https://doi.org/10.1515/9783111074917-006](https://doi.org/10.1515/9783111074917-006)
 
