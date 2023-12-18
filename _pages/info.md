@@ -90,8 +90,9 @@ Workshop organization
 
 Associations
 -----
-
 International Quantitative Linguistics Association ([IQLA](https://www.iqla.org/))
+
+Societas Linguistica Europaea ([SLE](https://societaslinguistica.eu/))
 
 Société Suisse de Linguistique ([SSL](https://www.sagw.ch/fr/ssg/))
 
