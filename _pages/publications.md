@@ -11,7 +11,7 @@ author_profile: true
 
 Journal articles
 -----
-Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.**. (2024). The ambiguous nature of complex semantic types: An experimental investigation. *Language and Cognition*, 1-26. [https://doi.org/10.1017/langcog.2023.73](https://doi.org/10.1017/langcog.2023.73)
+Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.** (2024). The ambiguous nature of complex semantic types: An experimental investigation. *Language and Cognition*, 1-26. [https://doi.org/10.1017/langcog.2023.73](https://doi.org/10.1017/langcog.2023.73)
 
 **Salvadori, J.**, & Huyghe, R. (2023). Affix polyfunctionality in French deverbal nominalizations. *Morphology*, *33*(1), 1-39. [https://doi.org/10.1007/s11525-022-09401-4](https://doi.org/10.1007/s11525-022-09401-4)
 
