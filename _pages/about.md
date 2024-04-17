@@ -17,7 +17,7 @@ Follow the links above for more information about my research!
 \
 \
 **Current projects**
-* Polysemy of French deverbal nouns
+* Polysemy in derivation
 * Affix rivalry
 * Affix polyfunctionality
 * Preservation of lexical aspect through nominalization
