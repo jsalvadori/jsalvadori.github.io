@@ -76,7 +76,7 @@ Workshop organization
 
 *[PhD Day](https://www.cuso.ch/activity/?p=887&uid=7230)*, May 3, 2024, Universität Bern, with Sandrine Zufferey and Richard Huyghe
 
-*[R pour les linguistes](https://www.cuso.ch/activity/?p=887&uid=7231)*, Spring 2024, Université de Fribourg, with Richard Huyghe
+*[R pour les linguistes](https://www.cuso.ch/activity/?p=887&uid=7231)*, March 14-15, 2024, Université de Fribourg, with Richard Huyghe
 
 *[Linguistique et questions de genre : perspectives et enjeux](https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=7228)*, January 18, 2024, Université de Neuchâtel, with Aylin Pamuksaç, Loanne Janin and Corinne Rossari
 
