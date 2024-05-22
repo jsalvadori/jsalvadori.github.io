@@ -18,6 +18,10 @@ Invited talk
 Conference presentations
 -----
 
+**Salvadori, J.**, Varvara, R., & Huyghe, R. (September 2024). *The semantics of conversion vs. affixation: Insights from nominalizations in French*. Biennial of Czech Linguistics/Bienále české lingvistiky, Prague, Czech Republic.
+
+Varvara, R., **Salvadori, J.**, & Huyghe, R. (September 2024). *Creating and exploiting a lexical database of deverbal nouns in French*. Biennial of Czech Linguistics/Bienále české lingvistiky, Prague, Czech Republic.
+
 Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.** (2023, November 17). *The ambiguous nature of complex semantic types: An experimental investigation*. XPrag.ch 2023, Fribourg, Switzerland.
 
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2023, September 15). *BERT e la rappresentazione dell'ambiguità lessicale: uno studio sulle nominalizzazioni in francese*. LVI Congresso Internazionale SLI (Società di Linguistica Italiana), Turin, Italy.
