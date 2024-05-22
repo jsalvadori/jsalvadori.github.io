@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 
-> One manuscript in preparation (accepted).
-
-
 Journal articles
 -----
+
+**Salvadori, J.**, & Huyghe, R. (to appear). D'une frontière à une autre: la délimitation aspectuelle dans le domaine nominal. *Verbum*, 45(2).
+
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2024). Lexical ambiguity in contextualized word embeddings: A case study of nominalizations. *Lingue e linguaggio* (early access), 1-41. [https://www.rivisteweb.it/doi/10.1418/112743](https://www.rivisteweb.it/doi/10.1418/112743)
 
 Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.** (2024). The ambiguous nature of complex semantic types: An experimental investigation. *Language and Cognition*, 1-26. [https://doi.org/10.1017/langcog.2023.73](https://doi.org/10.1017/langcog.2023.73)
