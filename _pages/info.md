@@ -78,7 +78,7 @@ Workshop organization
 -----
 *[The semantic transparency of morphologically complex words](https://societaslinguistica.eu/sle2024/wp-content/uploads/sites/6/2023/10/The-semantic-transparency-of-morphologically-complex-words.pdf)*, August 21-24, 2024, 57th Annual Meeting of the *Societas Linguistica Europaea*, Helsinki, with Richard Huyghe and Rossella Varvara
 
-*[PhD Day](https://www.cuso.ch/activity/?p=887&uid=7230)*, May 3, 2024, Universität Bern, with Sandrine Zufferey and Richard Huyghe
+*[PhD Day](https://www.cuso.ch/activity/?p=887&uid=7230)*, May 3, 2024, Universität Bern, with Baptiste Bersier, Sandrine Zufferey and Richard Huyghe
 
 *[R pour les linguistes](https://www.cuso.ch/activity/?p=887&uid=7231)*, March 14-15, 2024, Université de Fribourg, with Richard Huyghe
 
