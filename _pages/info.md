@@ -37,6 +37,10 @@ Research assistant, *fMRIStress* Project, February-December 2020
   
 Courses taught
 -----
+*[LG4 - Cohérence textuelle et pragmatique](https://www.unifr.ch/timetable/en/course.html?show=120763)*, Spring 2025, Département de français -- Université de Fribourg
+
+*[LG1 - Introduction à la linguistique](https://www.unifr.ch/timetable/en/course.html?show=120744)* (with Prof. Gilles Corminboeuf), Fall 2024, Département de français -- Université de Fribourg
+
 *[LG3 - Grammaire de l'énoncé](https://www.unifr.ch/timetable/en/course.html?show=107920)*, Fall 2022, Département de français -- Université de Fribourg
 
 *[LG2 - Lexique et morphologie](https://www.unifr.ch/timetable/en/course.html?show=101365)*, Fall 2021, Département de français -- Université de Fribourg
