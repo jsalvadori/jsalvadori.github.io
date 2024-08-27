@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+> Two manuscripts in preparation.
 
 Journal articles
 -----
