@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research presentations"
+title: "Research Presentations"
 permalink: /research_presentations/
 author_profile: true
 redirect_from:
@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-Invited talk
+Invited Talk
 -----
 
 **Salvadori, J.**, & Huyghe, R. (2023, May 12). *Affix polyfunctionality in French deverbal nominalizations*. Morphology Reading Group, Laboratoire de Linguistique Formelle (LLF), Paris, France.
 
 
-Conference presentations
+Conference Presentations
 -----
 
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2024, September 20). *Creating and exploiting a lexical database of deverbal nouns in French*. Biennial of Czech Linguistics/Bienále české lingvistiky, Prague, Czech Republic.
@@ -53,7 +53,7 @@ Schwab, S., Mouthon, M., **Salvadori, J.**, Ferreira da Silva, E., Yakoub, I., G
 Huyghe, R., Lombard, L., **Salvadori, J.**, & Schwab, S. (2021, February 24). *Assessing the rivalry between French deverbal nouns in* -age*,* -ion *and* -ment *through the analysis of neologisms*. 43. Jahrestagung der Deutschen Gesellschaft für Sprachwissenschaft, virtual.
 
 
-Other research presentations
+Other Research Presentations
 -----
   
 **Salvadori, J.** (2023, April 17). *L’une va-t-elle sans l’autre ? Les associations de fonctions sémantiques dans la dérivation de verbe à nom*. [PhD Day](https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6766) (CUSO doctoral workshop), Neuchâtel, Switzerland.
