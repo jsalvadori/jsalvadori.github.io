@@ -7,7 +7,7 @@ author_profile: true
 
 > Two manuscripts in preparation.
 
-Journal articles
+Journal Articles
 -----
 
 **Salvadori, J.**, & Huyghe, R. (to appear). D'une frontière à une autre: la délimitation aspectuelle dans le domaine nominal. *Verbum*, 45(2).
@@ -23,7 +23,7 @@ Schwab, S., Mouthon, M., Jost, L. B., **Salvadori, J.**, Stefanos-Yakoub, I., Fe
 **Salvadori, J.**, & Huyghe, R. (2022). When morphology meets regular polysemy. *Lexique*, *31*, 85-113. [https://doi.org/10.54563/lexique.857](https://doi.org/10.54563/lexique.857)
 
 
-Book chapters
+Book Chapters
 -----
 
 **Salvadori, J.**, Varvara, R., & Huyghe, R. (2024). Measuring affix rivalry as a gradient relationship. In 
@@ -32,7 +32,7 @@ A. Bagasheva, A. Nagano & V. Renner (Eds.), *Competition in word-formation* (pp.
 Huyghe, R., Lombard, A., **Salvadori, J.**, & Schwab, S. (2023). Semantic rivalry between French deverbal neologisms in *-age*, *-ion* and *-ment*. In S. Kotowski & I. Plag (Eds.), *The semantics of derivational morphology: Theory, methods, evidence* (pp. 143-176). De Gruyter. [https://doi.org/10.1515/9783111074917-006](https://doi.org/10.1515/9783111074917-006)
 
 
-Conference proceedings
+Conference Proceedings
 -----
 
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2022). Annotating complex words to investigate the semantics of derivational processes. In H. Bunt (Ed.), *Proceedings of the 18th Joint ACL - ISO Workshop on Interoperable Semantic Annotation (ISA-18)* (pp. 133-141). European Language Resources Association (ELRA). [https://aclanthology.org/2022.isa-1.18.pdf](https://aclanthology.org/2022.isa-1.18.pdf)
