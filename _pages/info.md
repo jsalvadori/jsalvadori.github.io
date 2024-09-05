@@ -24,7 +24,7 @@ B.A. in English and French, Université de Fribourg, 2014-2017
 
 
 
-Work experience in academia
+Work Experience in Academia
 -----
 Coordinator, [CUSO Doctoral Programme in Linguistics](https://langage.cuso.ch/accueil?print=1472&cHash=3e89837703bf78e1a95b00b64ca1f179), since 2021
 
@@ -35,7 +35,7 @@ Research assistant, *fMRIStress* Project, February-December 2020
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Principal investigators: Dr. Sandra Schwab and Prof. Jean-Marie Annoni
   
   
-Courses taught
+Teaching
 -----
 *[LG4 - Cohérence textuelle et pragmatique](https://www.unifr.ch/timetable/en/course.html?show=120763)*, Spring 2025, Département de français -- Université de Fribourg
 
@@ -46,7 +46,7 @@ Courses taught
 *[LG2 - Lexique et morphologie](https://www.unifr.ch/timetable/en/course.html?show=101365)*, Fall 2021, Département de français -- Université de Fribourg
 
 
-Additional training
+Additional Training
 -----
 
 *[Praat pour les nuls et pour les spécialistes](https://langage.cuso.ch/?id=887&L=0&tx_displaycontroller[showUid]=6763)*, September 7-8, 2023, Université de Neuchâtel
@@ -74,8 +74,11 @@ Additional training
 *[Le droit pour non-juristes (Quali+ Programme)](https://www.unifr.ch/qualiplus/fr/programme/droit.html)*, 2018-2019 (54 hours), Université de Fribourg
 
 
-Workshop organization
+Conference and Workshop Organizing
 -----
+
+*Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2025)*, September 2025, Université de Fribourg, with Richard Huyghe and Megan Prudent
+
 *[The semantic transparency of morphologically complex words](https://societaslinguistica.eu/sle2024/wp-content/uploads/sites/6/2023/10/The-semantic-transparency-of-morphologically-complex-words.pdf)*, August 21-24, 2024, 57th Annual Meeting of the *Societas Linguistica Europaea*, Helsinki, with Richard Huyghe and Rossella Varvara
 
 *[PhD Day](https://www.cuso.ch/activity/?p=887&uid=7230)*, May 3, 2024, Universität Bern, with Baptiste Bersier, Sandrine Zufferey and Richard Huyghe
