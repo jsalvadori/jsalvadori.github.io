@@ -26,11 +26,15 @@ B.A. in English and French, Université de Fribourg, 2014-2017
 
 Work Experience in Academia
 -----
+Research associate, Department of French, University of Fribourg, October 2024-February 2025
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Focus: Quantitative approches to French intensifiers
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Principal investigator: Dr. Suzanne Lesage
+
 Coordinator, [CUSO Doctoral Programme in Linguistics](https://langage.cuso.ch/accueil?print=1472&cHash=3e89837703bf78e1a95b00b64ca1f179), since 2021
 
-Research assistant, *fMRIStress* Project, February-December 2020
+Research assistant, *fMRIStress* Project, Université de Fribourg, February-December 2020
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Focus: neural correlates of lexical stress processing in a foreign free-stress language
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Focus: Neural correlates of lexical stress processing in a foreign free-stress language
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Principal investigators: Dr. Sandra Schwab and Prof. Jean-Marie Annoni
   
