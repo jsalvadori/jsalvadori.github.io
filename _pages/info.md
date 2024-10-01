@@ -27,7 +27,9 @@ B.A. in English and French, Université de Fribourg, 2014-2017
 Work Experience in Academia
 -----
 Research associate, Department of French, University of Fribourg, October 2024-February 2025
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Focus: Quantitative approches to French intensifiers
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Principal investigator: Dr. Suzanne Lesage
 
 Coordinator, [CUSO Doctoral Programme in Linguistics](https://langage.cuso.ch/accueil?print=1472&cHash=3e89837703bf78e1a95b00b64ca1f179), since 2021
