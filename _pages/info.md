@@ -83,7 +83,7 @@ Additional Training
 Conference and Workshop Organizing
 -----
 
-*Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2025)*, September 4-5, 2025, Université de Fribourg, with Richard Huyghe and Megan Prudent
+*[Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2025)](https://events.unifr.ch/derimo2025/en/)*, September 4-5, 2025, Université de Fribourg, with Richard Huyghe and Megan Prudent
 
 *[The semantic transparency of morphologically complex words](https://societaslinguistica.eu/sle2024/wp-content/uploads/sites/6/2023/10/The-semantic-transparency-of-morphologically-complex-words.pdf)*, August 21-24, 2024, 57th Annual Meeting of the *Societas Linguistica Europaea*, Helsinki, with Richard Huyghe and Rossella Varvara
 
