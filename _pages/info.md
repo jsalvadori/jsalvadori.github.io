@@ -14,7 +14,7 @@ Education
 
 Ph.D. in Linguistics, Université de Fribourg, 2020-2024 (expected)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Dissertation: *L’ambiguïté des noms déverbaux en français : une étude quantitative du sens construit* (*The ambiguity of deverbal nouns in French: A quantitative study of constructed meaning*)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Dissertation: *L’ambiguïté des noms déverbaux en français : une étude quantitative du sens construit*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Advisor: Prof. Richard Huyghe
 
