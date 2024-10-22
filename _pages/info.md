@@ -85,6 +85,8 @@ Conference and Workshop Organizing
 
 *[Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2025)](https://events.unifr.ch/derimo2025/en/)*, September 4-5, 2025, Université de Fribourg, with Richard Huyghe and Megan Prudent
 
+*Intensification et variation*, November 20, 2024, Université de Fribourg, with Suzanne Lesage
+
 *[The semantic transparency of morphologically complex words](https://societaslinguistica.eu/sle2024/wp-content/uploads/sites/6/2023/10/The-semantic-transparency-of-morphologically-complex-words.pdf)*, August 21-24, 2024, 57th Annual Meeting of the *Societas Linguistica Europaea*, Helsinki, with Richard Huyghe and Rossella Varvara
 
 *[PhD Day](https://www.cuso.ch/activity/?p=887&uid=7230)*, May 3, 2024, Universität Bern, with Baptiste Bersier, Sandrine Zufferey and Richard Huyghe
