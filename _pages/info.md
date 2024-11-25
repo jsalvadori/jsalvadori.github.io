@@ -54,6 +54,7 @@ Teaching
 
 Additional Training
 -----
+*[Implementing and Analyzing Experiments in PsychoPy and R](https://www.cuso.ch/activity/?p=887&uid=7226)*, November 22, 2024, Universität Bern
 
 *[Praat pour les nuls et pour les spécialistes](https://langage.cuso.ch/?id=887&L=0&tx_displaycontroller[showUid]=6763)*, September 7-8, 2023, Université de Neuchâtel
 
