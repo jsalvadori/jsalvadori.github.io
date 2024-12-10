@@ -17,13 +17,13 @@ Huyghe, R., **Salvadori, J.**, & Varvara, R. (Eds.) (in preparation). Semantic t
 Journal Articles
 -----
 
-Varvara, R., **Salvadori, J.**, & Huyghe, R. (2024). Lexical ambiguity in contextualized word embeddings: A case study of nominalizations. *Lingue e linguaggio* (early access), 1-41. [https://www.rivisteweb.it/doi/10.1418/112743](https://www.rivisteweb.it/doi/10.1418/112743)
+Varvara, R., **Salvadori, J.**, & Huyghe, R. (2024). Lexical ambiguity in contextualized word embeddings: A case study of nominalizations. *Lingue e linguaggio*, *1*, 141-182. [https://www.rivisteweb.it/doi/10.1418/112743](https://www.rivisteweb.it/doi/10.1418/112743)
 
-Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.** (2024). The ambiguous nature of complex semantic types: An experimental investigation. *Language and Cognition*, 1-26. [https://doi.org/10.1017/langcog.2023.73](https://doi.org/10.1017/langcog.2023.73)
+Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.** (2024). The ambiguous nature of complex semantic types: An experimental investigation. *Language and Cognition*, *4*, 1079–1104. [https://doi.org/10.1017/langcog.2023.73](https://doi.org/10.1017/langcog.2023.73)
 
 **Salvadori, J.**, & Huyghe, R. (2023). Affix polyfunctionality in French deverbal nominalizations. *Morphology*, *33*(1), 1-39. [https://doi.org/10.1007/s11525-022-09401-4](https://doi.org/10.1007/s11525-022-09401-4)
 
-**Salvadori, J.**, & Huyghe, R. (2023). D'une frontière à une autre: la délimitation aspectuelle dans le domaine nominal. *Verbum*, 45(2), 167-194. [https://www.atilf.fr/Verbum_XLV_2023-2_01_Salvadori-Huyghe.pdf](https://www.atilf.fr/wp-content/uploads/publications/verbum/XLV/atilf_Verbum_XLV_2023-2_01_Salvadori-Huyghe.pdf)
+**Salvadori, J.**, & Huyghe, R. (2023). D'une frontière à une autre: la délimitation aspectuelle dans le domaine nominal. *Verbum*, *45*(2), 167-194. [https://www.atilf.fr/Verbum_XLV_2023-2_01_Salvadori-Huyghe.pdf](https://www.atilf.fr/wp-content/uploads/publications/verbum/XLV/atilf_Verbum_XLV_2023-2_01_Salvadori-Huyghe.pdf)
 
 Schwab, S., Mouthon, M., Jost, L. B., **Salvadori, J.**, Stefanos-Yakoub, I., Ferreira da Silva, E., Giroud, N., Perriard, B., & Annoni, J.-M. (2023). Neural correlates of lexical stress processing in a foreign free-stress language. *Brain and Behavior*, *13*(1), e2854. [https://doi.org/10.1002/brb3.2854](https://doi.org/10.1002/brb3.2854)
 
