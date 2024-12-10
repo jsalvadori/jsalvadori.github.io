@@ -7,6 +7,13 @@ author_profile: true
 
 > Three manuscripts in preparation.
 
+
+Special Issue
+-----
+
+Huyghe, R., **Salvadori, J.**, & Varvara, R. (Eds.) (in preparation). Semantic transparency in word formation [Special issue]. *Morphology*. [https://link.springer.com/collections/fjaadajbgb](https://link.springer.com/collections/fjaadajbgb)
+
+
 Journal Articles
 -----
 
