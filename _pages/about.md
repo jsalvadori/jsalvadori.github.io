@@ -18,6 +18,6 @@ Follow the links above for more information about my research!
 \
 **Current projects**
 * Ambiguity in derivation
+* Semantic transparency in word formation
 * Affix rivalry
 * Affix polyfunctionality
-* Preservation of lexical aspect through nominalization
