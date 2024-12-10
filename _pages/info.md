@@ -121,3 +121,8 @@ Tract des Linguistes ([TdL](https://www.tract-linguistes.org/))
 Media
 -----
 Member of [Les Expertes.ch](https://lesexpertes.ch/expertes/74575-justine-salvadori/)
+
+
+Extracurricular Activities
+-----
+Member of [Foucoupe](https://www.foucoupe.ch/) (promoting contemporary music in Switzerland through unique concerts and filmed sessions)
