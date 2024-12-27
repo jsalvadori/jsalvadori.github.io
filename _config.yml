@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Justine Salvadori, Ph.D."
+title                    : "Justine Salvadori"
 title_separator          : "-"
 name                     : #&name ""
 description              : &description "Postdoctoral researcher in linguistics"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Justine Salvadori"
+  name             : "Justine Salvadori, Ph.D."
   avatar           : "pic2.jpeg"
   bio              : "Postdoctoral researcher in linguistics"
   location         : "Fribourg, Switzerland"
