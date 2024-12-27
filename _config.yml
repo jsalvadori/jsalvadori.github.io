@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Justine Salvadori"
+title                    : "Justine Salvadori, Ph.D."
 title_separator          : "-"
 name                     : #&name ""
-description              : &description "Ph.D. student in Linguistics"
+description              : &description "Postdoctoral researcher"
 url                      : https://jsalvadori.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jsalvadori/jsalvadori.github.io"
