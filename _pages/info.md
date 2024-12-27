@@ -12,11 +12,16 @@ redirect_from:
 Education
 -----
 
-Ph.D. in Linguistics, Université de Fribourg, 2020-2024 (expected)
+Ph.D. in Linguistics, Université de Fribourg, 2020-2024
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Dissertation: *L’ambiguïté des noms déverbaux en français : une étude quantitative du sens construit*
+* Dissertation: *L’ambiguïté des noms déverbaux en français : une étude quantitative du sens construit*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Advisor: Prof. Richard Huyghe
+* Advisor: Prof. Richard Huyghe
+
+* Dissertation committee: Prof. Fiammetta Namer, Prof. Olivier Bonami, Prof. Didier Maillat, Prof. Gilles Corminboeuf, Prof. Richard Huyghe
+
+* Grade: *summa cum laude*
+
 
 M.A. in French and English, Université de Fribourg, 2017-2019
 
@@ -28,17 +33,17 @@ Work Experience in Academia
 -----
 Research associate, Department of French, University of Fribourg, October 2024-February 2025
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Focus: Quantitative approches to French intensifiers
+* Focus: Quantitative approches to French intensifiers
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Principal investigator: Dr. Suzanne Lesage
+* Principal investigator: Dr. Suzanne Lesage
 
 Coordinator, [CUSO Doctoral Programme in Linguistics](https://langage.cuso.ch/accueil?print=1472&cHash=3e89837703bf78e1a95b00b64ca1f179), since 2021
 
 Research assistant, *fMRIStress* Project, Université de Fribourg, February-December 2020
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Focus: Neural correlates of lexical stress processing in a foreign free-stress language
+* Focus: Neural correlates of lexical stress processing in a foreign free-stress language
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Principal investigators: Dr. Sandra Schwab and Prof. Jean-Marie Annoni
+* Principal investigators: Dr. Sandra Schwab and Prof. Jean-Marie Annoni
   
   
 Teaching
