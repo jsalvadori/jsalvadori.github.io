@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Justine Salvadori, Ph.D."
 title_separator          : "-"
 name                     : #&name ""
-description              : &description "Postdoctoral researcher"
+description              : &description "Postdoctoral researcher in linguistics"
 url                      : https://jsalvadori.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jsalvadori/jsalvadori.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Justine Salvadori"
   avatar           : "pic2.jpeg"
-  bio              : "Postdoctoral researcher"
+  bio              : "Postdoctoral researcher in linguistics"
   location         : "Fribourg, Switzerland"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
