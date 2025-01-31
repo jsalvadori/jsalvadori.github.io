@@ -33,7 +33,7 @@ Work Experience in Academia
 -----
 Research associate, Department of French, University of Fribourg, October 2024-February 2025
 
-* Focus: Quantitative approches to French intensifiers
+* Focus: Quantitative approaches to French intensifiers
 
 * Principal investigator: Dr. Suzanne Lesage
 
