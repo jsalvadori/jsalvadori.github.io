@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research associate and lecturer at the University of Fribourg (Switzerland). My research interests lie at the intersection of **lexical semantics**, **derivational morphology** and **quantitative analysis**. 
+I'm a research associate and lecturer at the University of Fribourg (Switzerland). My work focuses on **lexical semantics**, **derivational morphology** and **quantitative analysis**. 
 \
 \
-Follow the links above for more information about my research!
+Follow the links above for more information!
 \
 \
 \
