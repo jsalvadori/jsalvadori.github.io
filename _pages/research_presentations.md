@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Invited Talk
+Invited Talks
 -----
 
 **Salvadori, J.** (2024, April 11). Master’s Seminar in Natural Language Processing. University of Franche-Comté, Besançon, France. 
