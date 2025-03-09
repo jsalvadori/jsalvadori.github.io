@@ -12,6 +12,8 @@ redirect_from:
 Invited Talk
 -----
 
+**Salvadori, J.** (2024, April 11). Master’s Seminar in Natural Language Processing. University of Franche-Comté, Besançon, France. 
+
 **Salvadori, J.**, & Huyghe, R. (2023, May 12). *Affix polyfunctionality in French deverbal nominalizations*. Morphology Reading Group, Laboratoire de Linguistique Formelle (LLF), Paris, France.
 
 
