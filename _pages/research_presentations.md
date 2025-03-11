@@ -12,7 +12,9 @@ redirect_from:
 Invited Talks
 -----
 
-**Salvadori, J.** (2024, April 11). Master’s Seminar in Natural Language Processing. University of Franche-Comté, Besançon, France. 
+**Salvadori, J.** (2025, April 11). Master’s Seminar in Natural Language Processing. University of Franche-Comté, Besançon, France. 
+
+**Salvadori, J.** (2024, November 11). *L’ambiguïté des noms déverbaux en français : Une étude quantitative du sens construit*. Master’s seminar *La sémantique des mots complexes*. University of Fribourg, Switzerland. 
 
 **Salvadori, J.**, & Huyghe, R. (2023, May 12). *Affix polyfunctionality in French deverbal nominalizations*. Morphology Reading Group, Laboratoire de Linguistique Formelle (LLF), Paris, France.
 
