@@ -31,30 +31,38 @@ B.A. in English and French, Université de Fribourg, 2014-2017
 
 Work Experience in Academia
 -----
-Research associate, Department of French, University of Fribourg, October 2024-February 2025
+Administrative and scientific coordinator, [CUSO Doctoral Programme in Linguistics](https://langage.cuso.ch/accueil?print=1472&cHash=3e89837703bf78e1a95b00b64ca1f179), since 2021
+
+Research associate in experimental syntax, Department of French, University of Fribourg, October 2024-February 2025
 
 * Focus: Quantitative approaches to French intensifiers
 
 * Principal investigator: Dr. Suzanne Lesage
 
-Coordinator, [CUSO Doctoral Programme in Linguistics](https://langage.cuso.ch/accueil?print=1472&cHash=3e89837703bf78e1a95b00b64ca1f179), since 2021
+PhD student, Department of French, University of Fribourg, September 2020-September 2024
 
-Research assistant, *fMRIStress* Project, Université de Fribourg, February-December 2020
+* Focus: [The semantics of deverbal nouns in French](https://data.snf.ch/grants/grant/188782)
 
-* Focus: Neural correlates of lexical stress processing in a foreign free-stress language
+* Principal investigator: Richard Huyghe
+
+Research assistant in phonetics and neurolinguistics, Université de Fribourg, February-December 2020
+
+* Focus: Neural correlates of lexical stress processing in a foreign free-stress language (*fMRIStress* Project)
 
 * Principal investigators: Dr. Sandra Schwab and Prof. Jean-Marie Annoni
   
   
 Teaching
 -----
-*[LG4 - Cohérence textuelle et pragmatique](https://www.unifr.ch/timetable/en/course.html?show=120763)*, Spring 2025, Département de français -- Université de Fribourg
+Expert for Matura Exams in French, 2023-2025, Cantons of Berne and Fribourg
 
-*[LG1 - Introduction à la linguistique](https://www.unifr.ch/timetable/en/course.html?show=120744)* (with Prof. Gilles Corminboeuf), Fall 2024, Département de français -- Université de Fribourg
+*[LG4 - Cohérence textuelle et pragmatique](https://www.unifr.ch/timetable/en/course.html?show=120763)* (Introduction to pragmatics), Spring 2025, Département de français -- Université de Fribourg
 
-*[LG3 - Grammaire de l'énoncé](https://www.unifr.ch/timetable/en/course.html?show=107920)*, Fall 2022, Département de français -- Université de Fribourg
+*[LG1 - Introduction à la linguistique](https://www.unifr.ch/timetable/en/course.html?show=120744)* (Introduction to linguistics, with Prof. Gilles Corminboeuf), Fall 2024, Département de français -- Université de Fribourg
 
-*[LG2 - Lexique et morphologie](https://www.unifr.ch/timetable/en/course.html?show=101365)*, Fall 2021, Département de français -- Université de Fribourg
+*[LG3 - Grammaire de l'énoncé](https://www.unifr.ch/timetable/en/course.html?show=107920)* (Introduction to syntax), Fall 2022, Département de français -- Université de Fribourg
+
+*[LG2 - Lexique et morphologie](https://www.unifr.ch/timetable/en/course.html?show=101365)* (Introduction to morphology and lexical semantics), Fall 2021, Département de français -- Université de Fribourg
 
 
 Additional Training
@@ -91,7 +99,7 @@ Conference and Workshop Organizing
 
 *[Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2025)](https://events.unifr.ch/derimo2025/en/)*, September 4-5, 2025, Université de Fribourg, with Richard Huyghe and Megan Prudent
 
-*Intensification et variation*, November 20, 2024, Université de Fribourg, with Suzanne Lesage
+*[Intensification et variation](https://www.unifr.ch/llf/fr/news-et-events/evenements/?eventid=16829)*, November 20, 2024, Université de Fribourg, with Suzanne Lesage
 
 *[The semantic transparency of morphologically complex words](https://societaslinguistica.eu/sle2024/wp-content/uploads/sites/6/2023/10/The-semantic-transparency-of-morphologically-complex-words.pdf)*, August 21-24, 2024, 57th Annual Meeting of the *Societas Linguistica Europaea*, Helsinki, with Richard Huyghe and Rossella Varvara
 
@@ -130,4 +138,4 @@ Member of [Les Expertes.ch](https://lesexpertes.ch/expertes/74575-justine-salvad
 
 Extracurricular Activities
 -----
-Member of [Foucoupe](https://www.foucoupe.ch/) (promoting contemporary music in Switzerland through unique concerts and filmed sessions)
+Member of [Foucoupe](https://www.foucoupe.ch/) (we organize intimate live performances and produce videos to promote contemporary music in Switzerland and abroad)
