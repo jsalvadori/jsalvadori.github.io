@@ -22,6 +22,8 @@ Invited Talks
 Conference Presentations
 -----
 
+**Salvadori, J.** (2025, June 12-14). *Morphology’s hidden hand: Unpacking ambiguity in French deverbal nouns*. 14th Mediterranean Morphology Meeting, Zadar, Croatia.
+
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2024, September 20). *Creating and exploiting a lexical database of deverbal nouns in French*. Biennial of Czech Linguistics/Bienále české lingvistiky, Prague, Czech Republic.
 
 **Salvadori, J.**, Varvara, R., & Huyghe, R. (2024, September 18). *The semantics of conversion vs. affixation: Insights from nominalizations in French*. Biennial of Czech Linguistics/Bienále české lingvistiky, Prague, Czech Republic.
