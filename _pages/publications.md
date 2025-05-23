@@ -7,6 +7,11 @@ author_profile: true
 
 > Four manuscripts in preparation.
 
+Ph.D. Dissertation
+-----
+
+**Salvadori, J.**. (2025). *L'ambiguïté des noms déverbaux en français : une étude quantitative du sens construit* [Doctoral dissertation, University of Fribourg]. FOLIA - Fribourg Open Library and Archive. [doi.org/10.51363/unifr.lth.2025.044](https://doi.org/10.51363/unifr.lth.2025.044) 
+
 
 Special Issue
 -----
