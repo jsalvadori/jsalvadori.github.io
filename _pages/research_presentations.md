@@ -21,11 +21,13 @@ Invited Talks
 
 Conference Presentations
 -----
-**Salvadori, J.**, & Huyghe, R. (2025, July 3-4). *Event, result, and beyond: A rule- and network-based approach to ambiguity in deverbal nominalization*. 11th Workshop on Nominalizations/11èmes Journées d'Etude sur les NOMinalisations (JENom 11), Graz, Austria. 
+**Salvadori, J.**. (2025, July 3). *Event, result, and beyond: A rule- and network-based approach to ambiguity in deverbal nominalization*. 11th Workshop on Nominalizations/11èmes Journées d'Etude sur les NOMinalisations (JENom 11), Graz, Austria. 
 
-**Salvadori, J.** (2025, June 25-28). *The shape of meaning: A network analysis of ambiguity in French deverbal nouns*. Word-Formation Theories VII & Typology and Universals in Word-Formation VI, Košice, Slovakia. 
+**Salvadori, J.**, & Huyghe, R. (2025, June 28). *The shape of meaning: A network analysis of ambiguity in French deverbal nouns*. Word-Formation Theories VII & Typology and Universals in Word-Formation VI, Košice, Slovakia. 
 
-**Salvadori, J.** (2025, June 12-14). *Morphology’s hidden hand: Unpacking ambiguity in French deverbal nouns*. 14th Mediterranean Morphology Meeting, Zadar, Croatia.
+Huyghe, R., **Salvadori, J.**, Varvara, R., Barque, L., Haas, P., Lombard, A., Monney, M., Tribout, D., & Wauquier, M. (2025, June 28). *SONDE: A lexical database for exploring the semantics of verb-to-noun derivation in French*. Word-Formation Theories VII & Typology and Universals in Word-Formation VI, Košice, Slovakia. 
+
+**Salvadori, J.** (2025, June 14). *Morphology’s hidden hand: Unpacking ambiguity in French deverbal nouns*. 14th Mediterranean Morphology Meeting, Zadar, Croatia.
 
 Lesage, S., & **Salvadori, J.** (2025, May 14). *L'adverbialité en question : le cas des intensifieurs romands*. Colloque international - International symposium: L'adverbe et ses frontières - The adverb and its boundaries, Neuchâtel, Switzerland.
 
