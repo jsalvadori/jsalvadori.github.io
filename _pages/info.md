@@ -56,6 +56,8 @@ Teaching
 -----
 Expert for Matura Exams in French, 2023-2025, Cantons of Berne and Fribourg
 
+*[LG8 - L'ambiguïté lexicale en français](https://www.unifr.ch/timetable/en/course.html?show=128034)* (Seminar on lexical ambiguity), Fall 2025, Département de français -- Université de Fribourg
+
 *[LG4 - Cohérence textuelle et pragmatique](https://www.unifr.ch/timetable/en/course.html?show=120763)* (Introduction to pragmatics), Spring 2025, Département de français -- Université de Fribourg
 
 *[LG1 - Introduction à la linguistique](https://www.unifr.ch/timetable/en/course.html?show=120744)* (Introduction to linguistics, with Prof. Gilles Corminboeuf), Fall 2024, Département de français -- Université de Fribourg
