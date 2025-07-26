@@ -21,7 +21,7 @@ Invited Talks
 
 Conference Presentations
 -----
-**Salvadori, J.**. (2025, July 3). *Event, result, and beyond: A rule- and network-based approach to ambiguity in deverbal nominalization*. 11th Workshop on Nominalizations/11èmes Journées d'Etude sur les NOMinalisations (JENom 11), Graz, Austria. 
+**Salvadori, J.** (2025, July 3). *Event, result, and beyond: A rule- and network-based approach to ambiguity in deverbal nominalization*. 11th Workshop on Nominalizations/11èmes Journées d'Etude sur les NOMinalisations (JENom 11), Graz, Austria. 
 
 **Salvadori, J.**, & Huyghe, R. (2025, June 28). *The shape of meaning: A network analysis of ambiguity in French deverbal nouns*. Word-Formation Theories VII & Typology and Universals in Word-Formation VI, Košice, Slovakia. 
 
