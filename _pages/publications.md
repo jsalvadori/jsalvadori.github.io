@@ -47,6 +47,8 @@ Huyghe, R., Lombard, A., **Salvadori, J.**, & Schwab, S. (2023). Semantic rivalr
 Conference Proceedings
 -----
 
+Huyghe, R., Prudent, M., & **Salvadori, J.** (Eds.) *Proceedings of the Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo2025)*. University of Fribourg. [events.unifr.ch/derimo2025/derimo_proceedings_2025.pdf](https://events.unifr.ch/derimo2025/en/assets/public/files/derimo_proceedings_2025.pdf)
+
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2022). Annotating complex words to investigate the semantics of derivational processes. In H. Bunt (Ed.), *Proceedings of the 18th Joint ACL - ISO Workshop on Interoperable Semantic Annotation (ISA-18)* (pp. 133-141). European Language Resources Association (ELRA). [aclanthology.org/2022.isa-1.18.pdf](https://aclanthology.org/2022.isa-1.18.pdf)
 
 Schwab, S., Mouthon, M., **Salvadori, J.**, Ferreira da Silva, E., Yakoub, I., Giroud, N., & Annoni, J.-M. (2022). Neural correlates and L2 lexical stress learning: An fMRI study. In S. Frota, M. Cruz & M. Vigário (Eds.), *Proceedings of the 11th International Conference on Speech Prosody - Speech Prosody 2022* (pp. 823-827). International Speech Communication Association (ISCA). [doi.org/10.21437/SpeechProsody.2022-167](https://doi.org/10.21437/SpeechProsody.2022-167)
