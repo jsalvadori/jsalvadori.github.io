@@ -11,6 +11,7 @@ redirect_from:
 
 Invited Talks
 -----
+**Salvadori, J.** (2026, April 29). Invited talk at the Surrey Linguistic Circle, University of Surrey.
 
 **Salvadori, J.** (2025, April 8). *L’ambiguïté des noms déverbaux en français : Une étude empirique et quantitative*. Master’s seminar in Natural Language Processing. University of Franche-Comté, Besançon, France. 
 
@@ -21,6 +22,8 @@ Invited Talks
 
 Conference Presentations
 -----
+Lesage, S., & **Salvadori, J.** (February 2026). *How intense are intensifiers? Experimental evidence of the degree expressed by intensifiers in French-speaking Switzerland.* Paper accepted at the “s u u u u u p e r awesome patterns of iNtEnSiFiCaTiOn‼11eleven 😎 🤩” workshop at the annual conference of the Deutsche Gesellschaft für Sprachwissenschaft (DGfS), Trier, Germany.
+
 **Salvadori, J.** (2025, July 3). *Event, result, and beyond: A rule- and network-based approach to ambiguity in deverbal nominalization*. 11th Workshop on Nominalizations/11èmes Journées d'Etude sur les NOMinalisations (JENom 11), Graz, Austria. 
 
 **Salvadori, J.**, & Huyghe, R. (2025, June 28). *The shape of meaning: A network analysis of ambiguity in French deverbal nouns*. Word-Formation Theories VII & Typology and Universals in Word-Formation VI, Košice, Slovakia. 
