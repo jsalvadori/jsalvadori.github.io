@@ -120,6 +120,11 @@ Conference and Workshop Organizing
 *[PhD Day](https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6067)*, May 6, 2021, Université de Fribourg, with Richard Huyghe
 
 
+Reviewing
+-----
+[Lexique](https://www.peren-revues.fr/lexique/), [Language and Cognition](https://www.cambridge.org/core/journals/language-and-cognition)
+
+
 
 Associations
 -----
