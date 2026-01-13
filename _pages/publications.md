@@ -22,6 +22,8 @@ Huyghe, R., **Salvadori, J.**, & Varvara, R. (Eds.) (in preparation). Semantic t
 Journal Articles
 -----
 
+**Salvadori, J.** (2025). Des formes aux sens : l’influence des schémas morphologiques sur l’ambiguïté des noms déverbaux en français. *Langue française*, *228*(4), 145-160. [revues.armand-colin.com/lettres-langues/langue-francaise/langue-francaise-no-228-42025](https://www.revues.armand-colin.com/lettres-langues/langue-francaise/langue-francaise-no-228-42025)
+
 Varvara, R., **Salvadori, J.**, & Huyghe, R. (2024). Lexical ambiguity in contextualized word embeddings: A case study of nominalizations. *Lingue e linguaggio*, *1*, 141-182. [rivisteweb.it/doi/10.1418/112743](https://www.rivisteweb.it/doi/10.1418/112743)
 
 Huyghe, R., Barque, L., Delafontaine, F., & **Salvadori, J.** (2024). The ambiguous nature of complex semantic types: An experimental investigation. *Language and Cognition*, *4*, 1079–1104. [doi.org/10.1017/langcog.2023.73](https://doi.org/10.1017/langcog.2023.73)
