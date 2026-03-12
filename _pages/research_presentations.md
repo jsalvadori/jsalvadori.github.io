@@ -11,8 +11,6 @@ redirect_from:
 
 Invited Talks
 -----
-**Salvadori, J.** (2026, April 29). Invited talk at the Surrey Linguistic Circle, University of Surrey.
-
 **Salvadori, J.** (2025, April 8). *L’ambiguïté des noms déverbaux en français : Une étude empirique et quantitative*. Master’s seminar in Natural Language Processing. University of Franche-Comté, Besançon, France. 
 
 **Salvadori, J.** (2024, November 11). *L’ambiguïté des noms déverbaux en français : Une étude quantitative du sens construit*. Master’s seminar *La sémantique des mots complexes*. University of Fribourg, Switzerland. 
