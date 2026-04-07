@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine Salvadori, Ph.D.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Geist', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #f4e8d832;
+            /*#faf8f5*/
+            color: #3D3027;
+            /*2c2c2c*/
+            line-height: 1.7;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            counter-reset: sidenote-counter;
+            padding-left: 180px;
+            padding-right: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+        }
+
+        .publication-item {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .pub-year {
+            position: absolute;
+            left: -160px;
+            top: 0;
+            text-align: right;
+            width: 140px;
+        }
+
+    .factoid-marker::before {
+    content: "→";
+    color: #d66176d2;
+    font-weight: 800;
+}
+
+@media (max-width: 1100px) {
+    .pub-year {
+        position: static;
+        display: block;
+        width: auto;
+        margin-right: 6px;
+        /*font-weight: 400;*/
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .pub-year::before {
+        content: "→";
+        color: #d66176d2;
+        margin-right: 6px;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 1100px) {
+    .pub-year.factoid-marker {
+        display: none;
+    }
+
+    .publication-item .factoid-marker + p::before {
+        content: "→ ";
+        color: #d66176d2;
+        font-weight: 800;
+    }
+}
+
+        .profile-container {
+            position: relative;
+            width: 160px;
+            height: 220px;  
+            margin: 0 auto 20px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.3s ease;
+        }
+
+        .quotes {
+            text-align: right;
+            font-size: 0.9em;
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        .quotes p {
+            margin: 0 0 5px 0;
+        }
+
+        .factoids-list {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+
+        .factoids-list li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 12px;
+        }
+
+        .factoids-list li::before {
+            content: "✶";
+            position: absolute;
+            left: 0;
+            top: 0.1em;
+            color: #2c2c2c; 
+            font-size: 0.9em;
+        }
+
+        .profile-img.default {
+            opacity: 1;
+        }
+
+        .profile-img.hover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+        }
+
+        .profile-container:hover .profile-img.default {
+            opacity: 0;
+        }
+
+        .profile-container:hover .profile-img.hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-family: 'Noto Serif', serif;
+            font-size: 2em;
+            margin-bottom: 25px;
+            font-weight: normal;
+            letter-spacing: 0.03em;
+        }
+
+        .teaching-item {
+        margin-bottom: 26px;
+        }
+
+        .teaching-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 4px;
+        }
+
+        .course-highlight {
+  display: inline;
+  background-color: #9fd9ea88;
+  /*#9fd9eaa9;*/
+  padding: 2px 6px;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
+        .teaching-meta {
+        font-size: 1em;
+        color: #3D3027;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .year {
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        .abstract {
+            margin: 30px 0;
+        }
+
+        .abstract h3 {
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        h2 {
+            position: relative;
+            padding-left: 0; 
+            font-family: 'Noto Serif', serif;
+            letter-spacing: 0.02em;
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            font-weight: normal;
+        }
+
+        body {
+            counter-reset: section;
+        }
+
+
+        h2::before {
+            counter-increment: section;
+            content: counter(section);
+
+            position: absolute;
+            left: -160px;
+
+            width: 140px;
+            text-align: right;  
+
+                font: inherit;
+            letter-spacing: inherit;
+            color: inherit;
+                }
+
+
+        h3 {
+            font-size: 1em;
+            margin: 25px 0 15px 0;
+            font-weight: normal;
+            background-color: #9fd9eaa9;
+            /*f8d4db*/
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #2c2c2c;
+            text-decoration: none;
+            background-image: linear-gradient(#F4D58D, #F4D58D);
+            /*c6f3af*/
+            background-size: 100% 0.8em;
+            background-repeat: no-repeat;
+            background-position: 0 180%;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            background-size: 100% 100%;
+        }
+
+        .projects ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 15px;
+        }
+
+        .projects li {
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .projects li::before {
+            content: "▮";
+            position: absolute;
+            left: 0;
+            color: #F4D58D;
+        }
+
+        .contact-links {
+            margin-top: 20px;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            color: #2c2c2c; 
+            text-decoration: none;
+            background-image: linear-gradient(#F4D58D, #F4D58D); 
+            background-size: 100% 0.5em; 
+            background-repeat: no-repeat;
+            background-position: 0 90%; 
+            transition: all 0.2s;
+        }
+
+        .contact-links a:hover {
+            background-size: 100% 100%;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #ccc;
+            text-align: center;
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        .side-menu {
+            position: fixed;
+            left: 20px;
+            top: 100px;
+            width: 160px;
+            font-size: 0.95em;
+        }
+
+.side-menu a {
+    display: block;
+    padding: 4px 8px;
+    background-image: none;
+    transition: all 0.2s;
+    border-radius: 4px;
+    position: relative;
+}
+
+.side-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
+    right: 8px;
+    height: 0.8em;
+    background-color: #F4D58D;
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+    z-index: -1;
+}
+
+.side-menu a:hover::after {
+    transform: scaleX(1);
+}
+
+.side-menu a:hover {
+    background-color: transparent;
+}
+
+.side-menu a.active {
+    background-color: #F4D58D;
+    color: #2c2c2c;
+    font-weight: 500;
+}
+
+.side-menu a.active::after {
+    transform: scaleX(0);
+}
+
+.cat-gallery {
+    display: none;
+    margin-top: 12px;
+    gap: 8px;
+}
+
+.cat-gallery.show {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    max-width: 400px; 
+}
+
+.cat-gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Mobile : affichage en colonne */
+@media (max-width: 768px) {
+    .cat-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+.sidenote-number {
+            cursor: pointer;
+            color: #2c2c2c;
+            background-image: linear-gradient(#F4D58D, #F4D58D);
+            background-size: 100% 0.6em;
+            background-repeat: no-repeat;
+            background-position: 0 85%;
+        }
+
+        .sidenote-number::before {
+            content: attr(data-number);
+            font-size: 0.7em;
+            vertical-align: super;
+        }
+
+        /* Style pour la sidenote elle-même */
+
+        .sidenote {
+            float: right;
+            clear: right;
+            margin-right: -240px;
+            width: 200px;
+            font-size: 0.8em;
+            color: #555;
+            line-height: 1.5;
+            margin-top: 0;
+        }
+
+        .sidenote::before {
+            content: attr(data-number);
+            font-size: 0.7em;
+            vertical-align: super;
+            margin-right: 4px;
+        }
+
+        @media (max-width: 1100px) {
+            body {
+                max-width: 650px;
+                padding-left: 20px;
+            }
+            
+            .side-menu {
+                display: none;
+            }
+            
+            .sidenote {
+                float: none;
+                margin-right: 0;
+                width: 100%;
+                background-color: #f4e8d832;
+                padding: 12px 15px;
+                margin: 15px 0;
+                border-left: 3px solid #F4D58D;
+                display: none;
+            }
+
+            .sidenote.show {
+                display: block;
+            }
+        }
+
+        @media (max-width: 1100px) {
+        .teaching-grid {
+            row-gap: 6px;
+        }
+        }
+
+        @media (max-width: 1100px) {
+            h2 {
+                padding-left: 2.2em; /* espace pour le numéro */
+            }
+
+            h2::before {
+                position: absolute;
+                left: 0;
+                width: auto;
+                text-align: left;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+                letter-spacing: 0.03em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+
+        /* ===== MENU HAMBURGER ===== */
+
+.mobile-menu-toggle {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: #2c2c2c;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.mobile-menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #f4e8d8;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.mobile-menu-dropdown {
+    display: none;
+    position: fixed;
+    top: 76px;
+    right: 16px;
+
+    background: #f4e8d832;
+    border: 0.5px solid rgba(0, 0, 0, 0.39);
+
+    padding: 8px;
+    min-width: 180px;
+
+    transform: translateY(-6px) scale(0.98);
+    opacity: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.mobile-menu-dropdown.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.mobile-menu-dropdown a {
+    display: block;
+    padding: 6px 10px;
+    margin: 2px 0;
+
+    font-size: 0.95em;
+
+    border-radius: 8px;
+    background-image: none;
+
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.mobile-menu-dropdown a:hover {
+    background-color: #F4D58D;
+    transform: translateX(2px);
+}
+
+.mobile-menu-dropdown a + a {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.mobile-menu-toggle {
+    z-index: 2000;
+}
+
+.mobile-menu-dropdown {
+    z-index: 1500;
+    background: rgba(250, 248, 245, 0.96); /* fond quasi opaque */
+}
+
+/* Affichage mobile uniquement */
+@media (max-width: 1100px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+}
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const menuLinks = document.querySelectorAll('.side-menu a');
+            const sidenoteNumbers = document.querySelectorAll('.sidenote-number');
+            const sidenotes = document.querySelectorAll('.sidenote');
+
+            sidenoteNumbers.forEach((num, index) => {
+                num.setAttribute('data-number', index + 1);
+            });
+
+            sidenotes.forEach((note, index) => {
+                note.setAttribute('data-number', index + 1);
+            });
+
+            function updateActiveSection() {
+                let current = '';
+                const scrollY = window.scrollY;
+                const windowHeight = window.innerHeight;
+                const pageHeight = document.body.scrollHeight;
+
+                sections.forEach((section, index) => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+
+                    if (scrollY + windowHeight >= pageHeight - 10) {
+                        current = sections[sections.length - 1].id;
+                        return;
+                    }
+
+                    if (scrollY >= sectionTop - 100) {
+                        current = section.id;
+                    }
+                });
+
+                menuLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', updateActiveSection);
+
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+
+                    menuLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+
+            updateActiveSection();
+        });
+
+        function toggleNote(id) {
+            const note = document.getElementById(id);
+            if (note.style.display === "block" || note.classList.contains('show')) {
+                note.style.display = "none";
+                note.classList.remove('show');
+            } else {
+                note.style.display = "block";
+                note.classList.add('show');
+            }
+        }
+
+    </script>
+    <script>
+function toggleCats() {
+    const gallery = document.getElementById('catGallery');
+    gallery.classList.toggle('show');
+}
+</script>
+</head>
+<body>
+
+<button class="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<nav class="mobile-menu-dropdown">
+    <a href="#about">in a nutshell</a>
+    <a href="#publications">publications</a>
+    <a href="#presentations">presentations</a>
+    <a href="#education">education</a>
+    <a href="#workexpe">work experience</a>
+    <a href="#teaching">teaching</a>
+    <a href="#add-train">additional training</a>
+    <a href="#factoids">factoids</a>
+    <a href="#contact">contact</a>
+</nav>
+
+    <nav class="side-menu">
+        <a href="#about">in a nutshell</a>
+        <a href="#publications">publications</a>
+        <a href="#presentations">presentations</a>
+        <a href="#education">education</a>
+        <a href="#workexpe">work experience</a>
+        <a href="#teaching">teaching</a>
+        <a href="#add-train">additional training</a>
+        <a href="#factoids">factoids</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <header>
+        <h1>justine salvadori</h1>
+        <div class="profile-container">
+        <!-- <img src="https://jsalvadori.github.io/images/pic3.jpg" alt="Justine Salvadori" class="profile-img default"> -->
+            <img src="images/apr26_profile1.jpg" alt="Justine Salvadori" class="profile-img default">
+            <img src="images/apr26_profile2.png" alt="Soso" class="profile-img hover">
+        </div>
+    </header>
+
+    <div class="abstract">
+        <p>Welcome! This website offers an overview of my <a href="#about">research</a>, <a href="#publications">publications</a>, and <a href="#presentations">presentations</a>, as well as information on how to <a href="#contact">contact me</a>.</p>
+    </div>
+
+    <section id="about">
+        <h2>in a nutshell</h2>
+
+<div class="quotes">
+    <p>
+        “Words, words, words.” (Shakespeare, <em>Hamlet</em>)
+    </p>
+    <p>
+        “Work, work, work” (Rihanna, <em>Work</em>)
+    </p>
+</div>
+
+<p> I am a linguist specializing in derivational morphology, lexical semantics, and quantitative and computational methods. My work explores the complex relationship between form and meaning in the lexicon, with a particular focus on lexical ambiguity (including metaphor and metonymy), affix polyfunctionality (or 'polysemy'), and competition among derivational affixes.
+</p>
+
+<p> I earned my Ph.D. in December 2024 from the University of Fribourg under the supervision of Richard Huyghe. My doctoral research examined ambiguity in French deverbal nouns using quantitative approaches. 
+</p>
+
+<p> I am currently a postdoctoral researcher at the University of Neuchâtel. From September 2026, I will be an SNSF Postdoc.Mobility fellow at the Universitat Pompeu Fabra under the supervision of Gemma Boleda (COLT group).
+</p>
+
+    </section>
+
+
+    <section id="publications">
+        <h2>publications</h2>
+
+        <p>I have several manuscripts in preparation, including work on probabilistic approaches to lexical ambiguity, regional intensifiers in Swiss French, and the lexical database I contributed to during my Ph.D.</p>
+
+        <h3>ph.d. dissertation</h3>
+
+        <div class="publication-item">
+        <span class="pub-year">2025</span>
+            <p><strong>Salvadori, J.</strong>. <em>L'ambiguïté des noms déverbaux en français : une étude quantitative du sens construit</em> [Doctoral dissertation, University of Fribourg]. FOLIA - Fribourg Open Library and Archive. <a href="https://doi.org/10.51363/unifr.lth.2025.044">doi.org/10.51363/unifr.lth.2025.044</a></p>
+        </div>
+
+
+        <h3>special issue</h3>
+
+        <div class="publication-item">
+        <span class="pub-year">In prep.</span>
+            <p>Huyghe, R., <strong>Salvadori, J.</strong>, & Varvara, R. (Eds.) Semantic transparency in word formation [Special issue]. <em>Morphology</em>. <a href="https://link.springer.com/collections/fjaadajbgb">link.springer.com/collections/fjaadajbgb</a></p>
+        </div>
+
+        <h3>journal articles</h3>
+
+        <div class="publication-item">
+        <span class="pub-year">2025</span>
+        <p><strong>Salvadori, J.</strong> Des formes aux sens : l'influence des schémas morphologiques sur l’ambiguïté des noms déverbaux en français. <em>Langue française</em>, <em>228</em>. <a href="https://doi.org/10.3917/lf.228.0145">doi.org/10.3917/lf.228.0145</a> </p>
+        </div>
+        
+        <div class="publication-item">
+        <span class="pub-year">2024</span>
+        <p>Varvara, R., <strong>Salvadori, J.</strong>, & Huyghe, R. Lexical ambiguity in contextualized word embeddings: A case study of nominalizations. <em>Lingue e linguaggio</em>, <em>1</em>, 141-182. <a href="https://www.rivisteweb.it/doi/10.1418/112743">rivisteweb.it/doi/10.1418/112743</a></p>
+        </div>
+
+        <div class="publication-item">
+        <p>Huyghe, R., Barque, L., Delafontaine, F., & <strong>Salvadori, J.</strong> The ambiguous nature of complex semantic types: An experimental investigation. <em>Language and Cognition</em>, <em>4</em>, 1079–1104. <a href="https://doi.org/10.1017/langcog.2023.73">doi.org/10.1017/langcog.2023.73</a></p>
+        </div>
+
+        <div class="publication-item">
+        <span class="pub-year">2023</span>
+        <p><strong>Salvadori, J.</strong>, & Huyghe, R. Affix polyfunctionality in French deverbal nominalizations. <em>Morphology</em>, <em>33</em>(1), 1-39. <a href="https://doi.org/10.1007/s11525-022-09401-4">doi.org/10.1007/s11525-022-09401-4</a></p>
+        </div>
+
+        <div class="publication-item">
+        <p><strong>Salvadori, J.</strong>, & Huyghe, R. D'une frontière à une autre: la délimitation aspectuelle dans le domaine nominal. <em>Verbum</em>, <em>45</em>(2), 167-194. <a href="https://www.atilf.fr/wp-content/uploads/publications/verbum/XLV/atilf_Verbum_XLV_2023-2_01_Salvadori-Huyghe.pdf">atilf.fr/Verbum_XLV_2023-2_01_Salvadori-Huyghe.pdf</a></p>
+        </div>
+
+        <div class="publication-item">
+        <p>Schwab, S., Mouthon, M., Jost, L. B., <strong>Salvadori, J.</strong>, Stefanos-Yakoub, I., Ferreira da Silva, E., Giroud, N., Perriard, B., & Annoni, J.-M. Neural correlates of lexical stress processing in a foreign free-stress language. <em>Brain and Behavior</em>, <em>13</em>(1), e2854. <a href="https://doi.org/10.1002/brb3.2854">doi.org/10.1002/brb3.2854</a></p>
+        </div>
+
+        <div class="publication-item">
+        <span class="pub-year">2022</span>
+        <p><strong>Salvadori, J.</strong>, & Huyghe, R. When morphology meets regular polysemy. <em>Lexique</em>, <em>31</em>, 85-113. <a href="https://doi.org/10.54563/lexique.857">doi.org/10.54563/lexique.857</a></p>
+        </div>
+
+        <h3>book chapters</h3>
+        
+        <div class="publication-item">
+        <span class="pub-year">2024</span>
+            <p><strong>Salvadori, J.</strong>, Varvara, R., & Huyghe, R. Measuring affix rivalry as a gradient relationship. In A. Bagasheva, A. Nagano & V. Renner (Eds.), <em>Competition in word-formation</em> (pp. 104-138). John Benjamins. <a href="https://doi.org/10.1075/la.284.04sal">doi.org/10.1075/la.284.04sal</a> (preprint: <a href="https://folia.unifr.ch/unifr/documents/329831">folia.unifr.ch/unifr/documents/329831</a>)</p>
+        </div>
+
+        <div class="publication-item">
+        <span class="pub-year">2023</span>
+            <p>Huyghe, R., Lombard, A., <strong>Salvadori, J.</strong>, & Schwab, S. Semantic rivalry between French deverbal neologisms in <em>-age</em>, <em>-ion</em> and <em>-ment</em>. In S. Kotowski & I. Plag (Eds.), <em>The semantics of derivational morphology: Theory, methods, evidence</em> (pp. 143-176). De Gruyter. <a href="https://doi.org/10.1515/9783111074917-006">doi.org/10.1515/9783111074917-006</a></p>
+        </div>
+
+        <h3>conference proceedings</h3>
+        
+        <div class="publication-item">
+        <span class="pub-year">2025</span>
+        <p>Huyghe, R., Prudent, M., & <strong>Salvadori, J.</strong> (Eds.) <em>Proceedings of the Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo2025)</em>. University of Fribourg. <a href="https://events.unifr.ch/derimo2025/en/assets/public/files/derimo_proceedings_2025.pdf">events.unifr.ch/derimo2025/derimo_proceedings_2025.pdf</a></p>
+        </div>
+
+        <div class="publication-item">
+        <span class="pub-year">2022</span>
+            <p>Varvara, R., <strong>Salvadori, J.</strong>, & Huyghe, R. Annotating complex words to investigate the semantics of derivational processes. In H. Bunt (Ed.), <em>Proceedings of the 18th Joint ACL - ISO Workshop on Interoperable Semantic Annotation (ISA-18)</em> (pp. 133-141). European Language Resources Association (ELRA). <a href="https://aclanthology.org/2022.isa-1.18.pdf">aclanthology.org/2022.isa-1.18.pdf</a></p>
+        </div>
+
+        <div class="publication-item">
+            <p>Schwab, S., Mouthon, M., <strong>Salvadori, J.</strong>, Ferreira da Silva, E., Yakoub, I., Giroud, N., & Annoni, J.-M. Neural correlates and L2 lexical stress learning: An fMRI study. In S. Frota, M. Cruz & M. Vigário (Eds.), <em>Proceedings of the 11th International Conference on Speech Prosody - Speech Prosody 2022</em> (pp. 823-827). International Speech Communication Association (ISCA). <a href="https://doi.org/10.21437/SpeechProsody.2022-167">doi.org/10.21437/SpeechProsody.2022-167</a></p>
+        </div>
+
+        <h3>annotation guidelines</h3>
+        
+        <div class="publication-item">
+        <span class="pub-year">2024</span>
+        <p><strong>Salvadori, J.</strong>, Barque, L., Haas, P., Huyghe, R., Monney, M., Schwab, S., Tribout, D., Varvara, R., & Wauquier, M. SONDE: The semantics of nouns derived from verbs in French. Annotation guide. <a href="https://github.com/semantics-deverbal-nouns/annotation-guide/blob/main/annotation_guide_1.3.pdf">github.com/semantics-deverbal-nouns/annotation_guide.pdf</a></p>
+        </div>
+    </section>
+
+    <section id="presentations">
+        <h2>presentations</h2>
+        
+        <p>Below is a selection of past talks. Feel free to <a href="#contact">contact me</a> if you are interested in the slides!</p>
+
+        <h3>invited talks</h3>
+    
+
+        <div class="publication-item">
+        <span class="pub-year">2025</span>
+            <p><strong>Salvadori, J.</strong> <em>L'ambiguïté des noms déverbaux en français : Une étude empirique et quantitative</em>. Master's seminar in Natural Language Processing. University of Franche-Comté, Besançon, France.</p>
+        </div>
+
+        <div class="publication-item">
+        <span class="pub-year">2023</span>
+        <p><strong>Salvadori, J.</strong>, & Huyghe, R. <em>Affix polyfunctionality in French deverbal nominalizations</em>. Morphology Reading Group, Laboratoire de Linguistique Formelle (LLF), Paris, France.</p>
+        </div>
+
+
+        <h3>conference presentations</h3>
+
+        <div class="publication-item">
+        <span class="pub-year">2026</span>
+            <p>Lesage, S., & <strong>Salvadori, J.</strong> <em>How intense are intensifiers? Experimental evidence of the degree expressed by intensifiers in French-speaking Switzerland.</em> Paper accepted at the “s u u u u u p e r awesome patterns of iNtEnSiFiCaTiOn‼11eleven 😎 🤩” workshop at the annual conference of the Deutsche Gesellschaft für Sprachwissenschaft (DGfS), Trier, Germany.</p>
+        </div>
+
+        <div class="publication-item">
+        <span class="pub-year">2025</span>
+            <p><strong>Salvadori, J.</strong> <em>Event, result, and beyond: A rule- and network-based approach to ambiguity in deverbal nominalization</em>. 11th Workshop on Nominalizations/11èmes Journées d'Etude sur les NOMinalisations (JENom 11), Graz, Austria.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, & Huyghe, R. <em>The shape of meaning: A network analysis of ambiguity in French deverbal nouns</em>. Word-Formation Theories VII & Typology and Universals in Word-Formation VI, Košice, Slovakia.</p>
+        </div>
+
+        <div class="publication-item">
+            <p>Huyghe, R., <strong>Salvadori, J.</strong>, Varvara, R., Barque, L., Haas, P., Lombard, A., Monney, M., Tribout, D., & Wauquier, M. <em>SONDE: A lexical database for exploring the semantics of verb-to-noun derivation in French.</em>. Word-Formation Theories VII & Typology and Universals in Word-Formation VI, Košice, Slovakia.</p>
+        </div>
+
+    
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong> <em>Morphology's hidden hand: Unpacking ambiguity in French deverbal nouns</em>. 14th Mediterranean Morphology Meeting, Zadar, Croatia.</p>
+        </div>
+
+        <div class="publication-item">
+            <p>Lesage, S., & <strong>Salvadori, J.</strong> <em>L’adverbialité en question : le cas des intensifieurs romands.</em>.         Colloque international - International symposium: L’adverbe et ses frontières - The adverb and its boundaries, Neuchâtel, Switzerland.</p>
+        </div>
+        
+        <div class="publication-item">
+        <span class="pub-year">2024</span>
+            <p>Varvara, R., <strong>Salvadori, J.</strong>, & Huyghe, R. <em>Creating and exploiting a lexical database of deverbal nouns in French</em>. Biennial of Czech Linguistics/Bienále české lingvistiky, Prague, Czech Republic.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, Varvara, R., & Huyghe, R. <em>The semantics of conversion vs. affixation: Insights from nominalizations in French</em>.  Biennial of Czech Linguistics/Bienále české lingvistiky, Prague, Czech Republic.</p>
+        </div>
+
+
+        <div class="publication-item">
+        <span class="pub-year">2023</span>
+            <p>Huyghe, R., Barque, L., Delafontaine, F., & <strong>Salvadori, J.</strong> <em>The ambiguous nature of complex semantic types: An experimental investigation</em>. XPrag.ch 2023, Fribourg, Switzerland.</p>
+        </div>
+
+        <div class="publication-item">
+            <p>Varvara, R., <strong>Salvadori, J.</strong>, & Huyghe, R. <em>BERT e la rappresentazione dell’ambiguità lessicale: uno studio sulle nominalizzazioni in francese</em>. LVI Congresso Internazionale SLI (Società di Linguistica Italiana), Turin, Italy.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, Varvara, R., & Huyghe, R. <em>Quantitative measures of affix rivalry</em>. 4th International Symposium of Morphology (ISMo 2023), Nancy, France.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, Varvara, R., & Huyghe, R. <em>Incidence- and abundance-based measures to assess rivalry in word formation</em>. [Poster session]. 12th International Quantitative Linguistics Conference (QUALICO 2023), Lausanne, Switzerland.</p>
+        </div>
+
+        <div class="publication-item">
+             <span class="pub-year">2022</span>
+            <p>Varvara, R., <strong>Salvadori, J.</strong>, & Huyghe, R. <em>Assessing affix polyfunctionality through BERT-derived representations</em> [Poster session]. 20th International Morphology Meeting (IMM20), Budapest, Hungary.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, & Huyghe, R. <em>La polyfonctionnalité des suffixes formateurs de noms déverbaux en français.</em> XXXe Congrès International de Linguistique et de Philologie Romanes (CILPR), La Laguna, Spain.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, Varvara, R., & Huyghe, R. <em>Measuring affix rivalry as a gradient relationship.</em> Word-Formation Theories VI & Typology and Universals in Word-Formation V, Košice, Slovakia.</p>
+        </div>       
+
+        <div class="publication-item">
+            <p>Varvara, R., <strong>Salvadori, J.</strong>, & Huyghe, R. <em>Annotating complex words to investigate the semantics of derivational processes</em>. 18th Joint ACL - ISO Workshop on Interoperable Semantic Annotation (ISA-18), Marseille, France.</p>
+        </div>  
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, & Huyghe, R. <em>Décrire la polysémie des noms déverbaux : critères et enjeux</em>. 8e Colloque International Res per nomen : Polysémie et référence, Reims, France.</p>
+        </div>  
+
+        <div class="publication-item">
+            <p>Schwab, S., Mouthon, M., <strong>Salvadori, J.</strong>, Ferreira da Silva, E., Yakoub, I., Giroud, N., & Annoni, J.-M. <em>Neural correlates and L2 lexical stress learning: An fMRI study.</em> 11th International Conference on Speech Prosody (Speech Prosody 2022), Lisbon, Portugal.</p>
+        </div>  
+
+        <div class="publication-item">
+            <p><strong>Salvadori, J.</strong>, & Huyghe, R. <em>How many is many? The polyfunctionality of deverbal suffixes in French.</em> 13th Mediterranean Morphology Meeting (MMM13), Rhodes, Greece.</p>
+        </div> 
+
+        <div class="publication-item">
+            <p>Schwab, S., Mouthon, M., <strong>Salvadori, J.</strong>, Ferreira da Silva, E., Yakoub, I., Giroud, N., & Annoni, J.-M. <em>The relationship between brain activation during L2 stress processing, music aptitude and L2 stress discrimination ability.</em> 10th International Symposium on the Acquisition of Second Language Speech - New Sounds 2022, Barcelona, Spain.</p>
+        </div> 
+
+        <div class="publication-item">
+             <span class="pub-year">2021</span>
+            <p><strong>Salvadori, J.</strong>, Huyghe, R., Lombard, A., & Schwab, S. <em>The preservation of lexical aspect in nominalization: Insights from competing neologisms in French</em>. 9th Workshop on Nominalizations/9èmes Journées d’Etude sur les NOMinalisations (JENom 9), virtual.</p>
+        </div> 
+
+        <div class="publication-item">
+            <p>Huyghe, R., Lombard, L., <strong>Salvadori, J.</strong>, & Schwab, S. <em>Assessing the rivalry between French deverbal nouns in</em> -age, -ion <em>and</em> -ment <em>through the analysis of neologisms</em>. 43. Jahrestagung der Deutschen Gesellschaft für Sprachwissenschaft, virtual.</p>
+        </div> 
+
+
+    </section>
+
+    <section id="education">
+        <h2>education</h2>
+        <p>I completed my Ph.D. in Linguistics at the University of Fribourg in 2024 (<em>summa cum laude</em>), under the supervision of Prof. Richard Huyghe. My <a href="https://folia.unifr.ch/unifr/documents/331896">dissertation</a>, titled <em>L'ambiguïté des noms déverbaux en français : une étude quantitative du sens construit</em>, investigated the ambiguity of French deverbal nouns through quantitative methods. The dissertation committee included Prof. Fiammetta Namer, Prof. Olivier Bonami, Prof. Didier Maillat, Prof. Gilles Corminboeuf, and Prof. Richard Huyghe. I also hold an M.A. (2019) and B.A. (2017) in French and English from the University of Fribourg.</p>
+    </section>
+
+    <section id="workexpe">
+    <h2>work experience in academia</h2>
+
+    <p>
+    I am currently a postdoctoral researcher at the University of Neuchâtel, working with <a href="https://sites.google.com/site/mathieuavanzi">Mathieu Avanzi</a> on Swiss French. From September 2026, I will be an SNSF Postdoc.Mobility fellow at the Universitat Pompeu Fabra in Barcelona, under the supervision of <a href="https://gboleda.github.io/">Gemma Boleda</a> within the <a href="https://www.upf.edu/web/colt">COLT group</a>.
+    </p>
+
+    <p>
+    Previously, I worked as a research associate in experimental syntax at the University of Fribourg (2024-2025, supervised by Dr. Suzanne Lesage), focusing on French intensifiers through experimental methods and statistical analysis. During my Ph.D. (2020-2024), I contributed to an <a href="https://data.snf.ch/grants/grant/188782">SNSF-funded project</a> on the semantics of deverbal nouns in French, led by Prof. Richard Huyghe. I led the subproject on deverbal noun ambiguity and developed expertise in semantic annotation (semantic types, lexical aspect, semantic roles) and quantitative/statistical analysis.
+    </p>
+
+    <p>
+    Prior to my Ph.D., I worked as a research assistant in phonetics and neurolinguistics at the University of Fribourg (February-December 2020), contributing to a project on neural correlates of lexical stress processing in foreign free-stress languages, supervised by Dr. Sandra Schwab and Prof. Jean-Marie Annoni.
+    </p>
+
+    <p>
+    Since 2021, I have also served as the administrative and scientific coordinator of the <a href="https://langage.cuso.ch/accueil">CUSO Doctoral Programme in Linguistics</a>, a major Swiss doctoral program covering French-speaking Switzerland. I strengthen Ph.D. training by co-organizing thematic and methodological schools (Python, R programming), bringing internationally recognized specialists to Switzerland, and responding to the growing demand for quantitative methods in doctoral research.
+    </p>
+
+    </section>
+
+    <section id="teaching">
+        <h2>teaching</h2>
+
+        <p>I have taught several courses and seminars at the University of Fribourg. From 2023 to 2025, I also served as an external examiner for the French Matura exams in the Cantons of Bern and Fribourg.</p>
+
+    <div class="publication-item teaching-item">
+        <span class="pub-year">SP 2026</span>
+
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">introduction to R</span>
+            </div>
+            <div class="teaching-meta">
+                Seminar · Bachelor · 6 ECTS ·  Neuchâtel<br>
+                Taught with Mathieu Avanzi and Céline Rumpf
+            </div>
+        </div>
+    </div>
+
+    <div class="publication-item teaching-item">
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">digital humanities II: applying digital methods in the humanities and historical sciences</span>
+            </div>
+            <div class="teaching-meta">
+                Seminar · Bachelor · 3/6 ECTS · Neuchâtel<br>
+            Offered as part of the BA in Digital Humanities and the Data Science program
+            </div>
+        </div>
+    </div>
+   
+    <div class="publication-item teaching-item">
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">introduction to the lexicon</span>
+            </div>
+            <div class="teaching-meta">
+Seminar · Bachelor · 3 ECTS · University of Fribourg
+            </div>
+        </div>
+    </div>
+
+    <div class="publication-item teaching-item">
+        <span class="pub-year">FS 2025</span>
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">introduction to lexical ambiguity</span>
+            </div>
+            <div class="teaching-meta">
+                Seminar · Bachelor · 6 ECTS credits · Fribourg  <br>
+Supervision of 27 student research projects
+            </div>
+        </div>
+    </div>
+
+    <div class="publication-item teaching-item">
+        <span class="pub-year">SP 2025</span>
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">introduction to pragmatics</span>
+            </div>
+            <div class="teaching-meta">
+                Lecture · Bachelor · 3 ECTS credits · Fribourg
+            </div>
+        </div>
+    </div>
+        
+    <div class="publication-item teaching-item">
+        <span class="pub-year">FS 2024</span>
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">introduction to linguistics</span>
+            </div>
+            <div class="teaching-meta">
+                Readings and exercises · Bachelor · 6 ECTS credits · Fribourg <br>
+                Taught as a supplement to Prof. Gilles Corminboeuf's lecture course
+            </div>
+        </div>
+    </div>
+    
+    <div class="publication-item teaching-item">
+        <span class="pub-year">FS 2022</span>
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">introduction to syntax</span>
+            </div>
+            <div class="teaching-meta">
+                Lecture · Bachelor · 3 ECTS credits · Fribourg
+            </div>
+        </div>
+    </div>
+        
+    <div class="publication-item teaching-item">
+        <span class="pub-year">FS 2021</span>
+        <div class="teaching-grid">
+            <div class="teaching-course">
+                <span class="course-highlight">introduction to morphology and lexical semantics</span>
+            </div>
+            <div class="teaching-meta">
+                Lecture · Bachelor · 3 ECTS credits · Fribourg
+            </div>
+        </div>
+    </div>
+        
+        
+    </section>
+
+    <section id="add-train">
+        <h2>additional training</h2>
+
+        <p>
+        Alongside my degrees, I have developed additional skills through workshops and summer schools, including three ESSLLIs (officially for linguistics, unofficially for the food scenes of Galway and Ljubljana).
+        </p>
+        
+        <div class="publication-item">
+            <span class="pub-year">2024</span>
+            <p><a href="https://langage.cuso.ch/?id=887&L=0&tx_displaycontroller[showUid]=7226">Implementing and Analyzing Experiments in PsychoPy and R</a>, November 22, Universität Bern.</p>
+        </div>
+
+        <div class="publication-item">
+            <span class="pub-year">2023</span>
+            <p><a href="https://langage.cuso.ch/?id=887&L=0&tx_displaycontroller[showUid]=6763">Praat pour les nuls et pour les spécialistes</a>, September 7-8, Université de Neuchâtel.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6762">Crowdsourcing linguistic annotations and experiments</a>,  September 4, Universität Bern.</p>
+        </div>
+        
+        <div class="publication-item">
+            <p><a href="https://2023.esslli.eu/">34th European Summer School in Logic, Language and Information (ESSLLI)</a>, July 31-August 11, Univerza v Ljubljani.</p>
+        </div>
+
+        <div class="publication-item">
+            <span class="pub-year">2022</span>
+            <p><a href="https://langage.cuso.ch/?id=887&L=0&tx_displaycontroller[showUid]=6064">Approches numériques des relations sémantiques: du lexique au corpus</a>, November 28-29, Université de Neuchâtel.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><a href="https://langage.cuso.ch/?id=887&L=0&tx_displaycontroller[showUid]=6068">Quelle place pour la variation sociolinguistique dans les données récoltées empiriquement ?</a>, September 12, Université de Lausanne.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><a href="https://2022.esslli.eu/">33rd European Summer School in Logic, Language and Information (ESSLLI)</a>, August 8-19, University of Galway.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><a href="https://www.loria.fr/event/summer-school-python4nlp/">Python4NLP</a>, May 9-13, Université de Lorraine.</p>
+        </div>
+
+        <div class="publication-item">
+            <span class="pub-year">2021</span>
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=5572">Quelles approches pour l’étude des français dits « régionaux » ?</a>, November 11-12, Université de Fribourg.</p>
+        </div>
+
+        <div class="publication-item">
+            <p><a href="https://english.cuso.ch/?id=897&tx_displaycontroller[showUid]=5593">Recent approaches to the quantitative study of language: Rules and un-rules</a>, October 14-15, 2021, virtual.</p>
+        </div>        
+
+        <div class="publication-item">
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=5573">Combining corpus and experimental data in linguistics</a>, September 7, 2021, virtual.</p>
+        </div>    
+
+        <div class="publication-item">
+            <p><a href="https://esslli2021.unibz.it/">32nd European Summer School in Logic, Language and Information (ESSLLI)</a>, July 26-August 13, virtual.</p>
+        </div>   
+
+        <div class="publication-item">
+            <span class="pub-year">2018-2019</span>
+            <p><a href="https://www.unifr.ch/qualiplus/fr/programme/droit.html">Le droit pour non-juristes (Quali+ Programme)</a>, 54 hours, Université de Fribourg.</p>
+        </div>     
+
+
+<section id="organization">
+        <h2>conference and workshop organizing</h2>
+        
+        <h3>international workshops</h3>
+        
+        <div class="publication-item">
+            <span class="pub-year">2025</span>
+            <p><a href="https://events.unifr.ch/derimo2025/en/">Fifth International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2025)</a>, September 4-5, University of Fribourg. Co-organized with Richard Huyghe and Megan Prudent.</p>
+        </div>
+        
+        <div class="publication-item">
+            <span class="pub-year">2024</span>
+            <p><a href="https://www.unifr.ch/llf/fr/news-et-events/evenements/?eventid=16829">Intensification et variation</a>, November 20, University of Fribourg. Co-organized with Suzanne Lesage.</p>
+        </div>
+        
+        <div class="publication-item">
+            <p><a href="https://societaslinguistica.eu/sle2024/wp-content/uploads/sites/6/2023/10/The-semantic-transparency-of-morphologically-complex-words.pdf">The semantic transparency of morphologically complex words</a>, August 21-24, 57th Annual Meeting of the Societas Linguistica Europaea, Helsinki. Co-organized with Richard Huyghe and Rossella Varvara.</p>
+        </div>
+        
+        <h3>ph.d. activities</h3>
+        
+        <div class="publication-item">
+            <span class="pub-year">2024</span>
+            <p><a href="https://www.cuso.ch/activity/?p=887&uid=7230">PhD Day</a>, May 3, University of Bern. Co-organized with Baptiste Bersier, Sandrine Zufferey and Richard Huyghe.</p>
+        </div>
+        
+        <div class="publication-item">
+            <p><a href="https://www.cuso.ch/activity/?p=887&uid=7231">R pour les linguistes</a>, March 14-15, University of Fribourg. Co-organized with Richard Huyghe.</p>
+        </div>
+        
+        <div class="publication-item">
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=7228">Linguistique et questions de genre : perspectives et enjeux</a>, January 18, University of Neuchâtel. Co-organized with Aylin Pamuksaç, Loanne Janin and Corinne Rossari.</p>
+        </div>
+        
+        <div class="publication-item">
+            <span class="pub-year">2023</span>
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6768">Python for linguists</a>, June 22-23, University of Fribourg. Co-organized with Richard Huyghe.</p>
+        </div>
+        
+        <div class="publication-item">
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6766">PhD Day</a>, April 17, University of Neuchâtel. Co-organized with Linda Sanvido, Aylin Pamuksaç, Corinne Rossari and Richard Huyghe.</p>
+        </div>
+        
+        <div class="publication-item">
+            <span class="pub-year">2022</span>
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6063">Experimental approaches to meaning</a>, October 6-7, University of Fribourg. Co-organized with Alizée Lombard, Ekaterina Tskhovrebova, Mathis Wetzel and Richard Huyghe.</p>
+        </div>
+        
+        <div class="publication-item">
+            <span class="pub-year">2021</span>
+            <p><a href="https://langage.cuso.ch/?id=887&tx_displaycontroller[showUid]=6067">PhD Day</a>, May 6, University of Fribourg. Co-organized with Richard Huyghe.</p>
+        </div>
+    </section>
+
+
+    </section>
+
+        <section id="factoids">
+
+            <h2>factoids</h2>
+
+        <div class="publication-item">
+<span class="pub-year factoid-marker"></span>
+            <p>
+                I'm a crazy cat lady.
+                <a href="javascript:void(0)" class="cat-toggle" onclick="toggleCats()">Click here</a>
+                to see some very cute kitties.
+            </p>
+
+            <div class="cat-gallery" id="catGallery">
+                <img src="images/cat1.png" alt="Very cute cat 1">
+                <img src="images/cat2.png" alt="Very cute cat 2">
+                <img src="images/cat3.jpeg" alt="Very cute cat 3">
+            </div>
+        </div>
+
+        <div class="publication-item">
+<span class="pub-year factoid-marker"></span>
+            <p>I'm a member of <a href="https://www.foucoupe.ch/">Foucoupe</a>: we organize intimate live performances and produce videos to support contemporary music in Switzerland and beyond.</p>
+        </div>
+
+        </section>
+
+
+    <section id="contact">
+        <h2>contact</h2>
+        <p>You can reach me at first-name.last-name@unifr.ch or @unine.ch.</p>
+        
+        <p>I am currently based in Fribourg, Switzerland.</p>
+
+        <div class="contact-links">
+            <a href="mailto:justine.salvadori@unifr.ch">Email</a>
+            <a href="https://www.researchgate.net/profile/Justine-Salvadori">ResearchGate</a>
+            <a href="https://scholar.google.com/citations?user=LosphVYAAAAJ&hl=fr">Google Scholar</a>
+            <a href="https://orcid.org/0000-0002-4994-1675">ORCID</a>
+        </div>
+    </section>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const toggle = document.querySelector('.mobile-menu-toggle');
+    const menu = document.querySelector('.mobile-menu-dropdown');
+
+    toggle.addEventListener('click', function () {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', !expanded);
+        toggle.classList.toggle('active');
+        menu.classList.toggle('show');
+    });
+
+    menu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            toggle.classList.remove('active');
+            menu.classList.remove('show');
+        });
+    });
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 1100) {
+            toggle.classList.remove('active');
+            menu.classList.remove('show');
+        }
+    });
+});
+</script>
+
+</body>
+</html>
