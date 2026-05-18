@@ -533,51 +533,67 @@
 }
 
 .mobile-menu-dropdown {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 80px 40px 40px 40px;
+    overflow-y: auto;
+
     position: fixed;
-    top: 76px;
-    right: 16px;
+    inset: 0;
+    z-index: 1500;
 
-    background: #f4e8d832;
-    border: 0.5px solid rgba(0, 0, 0, 0.39);
+    background: rgba(244, 232, 216, 0.97);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 
-    padding: 8px;
-    min-width: 180px;
-
-    transform: translateY(-6px) scale(0.98);
     opacity: 0;
-    transition: opacity 0.2s ease, transform 0.2s ease;
-
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    pointer-events: none;
+    transition: opacity 0.25s ease;
 }
 
 .mobile-menu-dropdown.show {
-    display: block;
     opacity: 1;
-    transform: translateY(0) scale(1);
+    pointer-events: all;
 }
 
 .mobile-menu-dropdown a {
     display: block;
-    padding: 6px 10px;
-    margin: 2px 0;
-
-    font-size: 0.95em;
-
-    border-radius: 8px;
+    padding: 12px 0;
+    font-size: 1.3em;
+    font-family: 'Noto Serif', serif;
+    border-bottom: none;
     background-image: none;
-
-    transition: background-color 0.15s ease, transform 0.15s ease;
+    width: 100%;
 }
 
-.mobile-menu-dropdown a:hover {
+
+.mobile-menu-dropdown a span {
+    position: relative;
+    display: inline;
+}
+
+.mobile-menu-dropdown a span::after {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 0.45em;
     background-color: #F4D58D;
-    transform: translateX(2px);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+.mobile-menu-dropdown a:hover span::after {
+    transform: scaleX(1);
 }
 
 .mobile-menu-dropdown a + a {
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: none;
 }
 
 .mobile-menu-toggle {
@@ -684,15 +700,15 @@ function toggleCats() {
 </button>
 
 <nav class="mobile-menu-dropdown">
-    <a href="#about">in a nutshell</a>
-    <a href="#publications">publications</a>
-    <a href="#presentations">presentations</a>
-    <a href="#education">education</a>
-    <a href="#workexpe">work experience</a>
-    <a href="#teaching">teaching</a>
-    <a href="#add-train">additional training</a>
-    <a href="#factoids">factoids</a>
-    <a href="#contact">contact</a>
+    <a href="#about"><span>in a nutshell</span></a>
+    <a href="#publications"><span>publications</span></a>
+    <a href="#presentations"><span>presentations</span></a>
+    <a href="#education"><span>education</span></a>
+    <a href="#workexpe"><span>work experience</span></a>
+    <a href="#teaching"><span>teaching</span></a>
+    <a href="#add-train"><span>additional training</span></a>
+    <a href="#factoids"><span>factoids</span></a>
+    <a href="#contact"><span>contact</span></a>
 </nav>
 
     <nav class="side-menu">
